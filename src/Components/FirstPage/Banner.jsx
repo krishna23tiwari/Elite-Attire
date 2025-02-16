@@ -45,7 +45,7 @@ const Banner = ({ handleOrderPopup }) => {
   };
 
   return (
-    <div className="relative overflow-hidden h-screen w-full pt-[80px]">
+    <div className="relative overflow-hidden h-screen w-full pt-[80px] inset-0">
       <Slider {...settings} className="h-full">
         {ImageList.map((data) => (
           <div

@@ -4,6 +4,8 @@ import Banner from '../Components/FirstPage/Banner'
 import Hero from '../Components/FirstPage/Hero'
 import HeroSecond from '../Components/FirstPage/HeroSecond'
 import NewStyle from '../Components/FirstPage/NewStyle'
+import NewProduct from '../Components/FirstPage/NewProduct'
+import NewCollection from '../Components/FirstPage/NewCollection'
 
 const Homepage = () => {
   return (
@@ -13,6 +15,8 @@ const Homepage = () => {
       <Hero />
       <HeroSecond />
       <NewStyle />
+      <NewProduct />
+      <NewCollection/>
     </>
   )
 }

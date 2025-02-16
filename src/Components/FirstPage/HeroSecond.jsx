@@ -2,7 +2,7 @@ import React from 'react'
 
 const HeroSecond = () => {
   return (
-    <div className='w-full h-full bg-gradient-to-r from-gray-700 via-gray-500 to-gray-400 px-5 py-10'>
+    <div className='w-full h-full bg-gradient-to-r from-gray-700 via-gray-500 to-gray-400 px-5 py-10 top-0 left-0'>
 
     
     <div className='flex justify-center mb-20'>
@@ -10,7 +10,7 @@ const HeroSecond = () => {
     </div>
   
     
-    <div className='grid grid-cols-4 gap-6 mt-10'>
+    <div className=' grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 mt-10'>
       
       
       <div className='h-[400px] flex justify-center'>
