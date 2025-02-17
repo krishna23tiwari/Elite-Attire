@@ -1,14 +1,14 @@
 import React from 'react';
 import { IoMdSearch } from "react-icons/io";
 import { FaCaretDown, FaCartShopping } from 'react-icons/fa6';
-import Logo from '../../assets/logo.png';
+import { Link } from 'react-router-dom';
+
 
 const Menu = [
   { id: 1, name: "Home", link: "/#" },
   { id: 2, name: "Top Rated", link: "/#services" },
   { id: 3, name: "Kids Wear", link: "/#" },
   { id: 4, name: "Mens Wear", link: "/#" },
-  { id: 5, name: "Electronics", link: "/#" },
 ];
 
 const DropdownLinks = [
