@@ -3,7 +3,7 @@ import React from 'react'
 const KidsWearDetails = () => {
   return (
     <div>
-      hello
+      Kids wear
     </div>
   )
 }

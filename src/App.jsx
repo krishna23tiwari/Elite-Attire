@@ -6,6 +6,7 @@ import { BrowserRouter, Routes, Router, Route } from 'react-router-dom'
 import KidsWearDetails from './Pages/KidsWearDetails'
 import MensWearDetails from './Pages/MensWearDetails'
 import TrendigProductsDetails from './Pages/TrendigProductsDetails'
+import BestSellingDetails from './Pages/BestSellingDetails'
 
 const App = () => {
   return (
@@ -16,7 +17,8 @@ const App = () => {
         <Route path='TopRate' element={<TopRatedDetails/>} />
         <Route path='kidsWear' element={<KidsWearDetails/>} />
         <Route path='menswear' element={<MensWearDetails/>} />
-        <Route path='trendingproducts' element={<TrendigProductsDetails/>} />        
+        <Route path='trendingproducts' element={<TrendigProductsDetails/>} /> 
+        <Route path='bestselling' element={<BestSellingDetails/>} />       
 
       </Routes>
     </BrowserRouter>
