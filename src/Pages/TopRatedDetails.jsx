@@ -1,6 +1,6 @@
 import React from 'react'
-import Navbar from './../Components/FirstPage/Navbar';
-import Banner from './../Components/FirstPage/Banner';
+import Navbar from '../Components/Navbar-and-banner/Navbar';
+import Banner from '../Components/Navbar-and-banner/Banner';
 import TopRated from '../Components/Second/TopRated';
 
 
